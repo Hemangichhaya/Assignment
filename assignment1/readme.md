@@ -33,14 +33,7 @@ Preprocessing
 - Two models trained based on text splitted with new line (\n) delimeter (models/split_lines_main) and fixed span length of 500 characters (models/split_fixedlen_main)
 ```
 
-Performance measure f1 score on test data with line split (\n) on en_core_web_lg
-```
-'ents_p': 1.0, 'ents_r': 0.9333333333333333, 'ents_f': 0.9655172413793104, 'ents_per_type': {'Party One': {'p': 1.0, 'r': 0.8, 'f': 0.888888888888889}, 'Aggrement Start Date': {'p': 1.0, 'r': 1.0, 'f': 1.0}, 'Aggrement End Date': {'p': 1.0, 'r': 1.0, 'f': 1.0}, 'Aggrement Value': {'p': 1.0, 'r': 0.75, 'f': 0.8571428571428571}, 'Renewal Notice (Days)': {'p': 1.0, 'r': 1.0, 'f': 1.0}, 'Party Two': {'p': 1.0, 'r': 1.0, 'f': 1.0}}
-```
-on train data with line split (\n)  on en_core_web_lg
-```
-'ents_p': 0.6153846153846154, 'ents_r': 0.38095238095238093, 'ents_f': 0.47058823529411764, 'ents_per_type': {'Party Two': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'Aggrement End Date': {'p': 0.42857142857142855, 'r': 0.75, 'f': 0.5454545454545454}, 'Aggrement Start Date': {'p': 1.0, 'r': 0.25, 'f': 0.4}, 'Renewal Notice (Days)': {'p': 1.0, 'r': 0.6, 'f': 0.7499999999999999}, 'Party One': {'p': 0.5, 'r': 0.25, 'f': 0.3333333333333333}, 'Aggrement Value': {'p': 0.0, 'r': 0.0, 'f': 0.0}}
-```
+
 
 Performance measure f1 score on test data with 500 characters on en_core_web_sm
 ```
@@ -60,4 +53,13 @@ Performance measure on test data with line split (\n) on en_core_web_sm
 train data with line split (\n) on en_core_web_sm
 ```
 {'ents_p': 0.8958333333333334, 'ents_r': 0.9555555555555556, 'ents_f': 0.924731182795699, 'ents_per_type': {'Party One': {'p': 0.8333333333333334, 'r': 1.0, 'f': 0.9090909090909091}, 'Aggrement Start Date': {'p': 0.8888888888888888, 'r': 1.0, 'f': 0.9411764705882353}, 'Aggrement End Date': {'p': 0.9, 'r': 1.0, 'f': 0.9473684210526316}, 'Aggrement Value': {'p': 1.0, 'r': 0.75, 'f': 0.8571428571428571}, 'Renewal Notice (Days)': {'p': 1.0, 'r': 1.0, 'f': 1.0}, 'Party Two': {'p': 0.8, 'r': 0.8, 'f': 0.8000000000000002}}}
+```
+
+Performance measure f1 score on test data with line split (\n) on en_core_web_lg (haven't uploaded this model)
+```
+'ents_p': 1.0, 'ents_r': 0.9333333333333333, 'ents_f': 0.9655172413793104, 'ents_per_type': {'Party One': {'p': 1.0, 'r': 0.8, 'f': 0.888888888888889}, 'Aggrement Start Date': {'p': 1.0, 'r': 1.0, 'f': 1.0}, 'Aggrement End Date': {'p': 1.0, 'r': 1.0, 'f': 1.0}, 'Aggrement Value': {'p': 1.0, 'r': 0.75, 'f': 0.8571428571428571}, 'Renewal Notice (Days)': {'p': 1.0, 'r': 1.0, 'f': 1.0}, 'Party Two': {'p': 1.0, 'r': 1.0, 'f': 1.0}}
+```
+on train data with line split (\n)  on en_core_web_lg
+```
+'ents_p': 0.6153846153846154, 'ents_r': 0.38095238095238093, 'ents_f': 0.47058823529411764, 'ents_per_type': {'Party Two': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'Aggrement End Date': {'p': 0.42857142857142855, 'r': 0.75, 'f': 0.5454545454545454}, 'Aggrement Start Date': {'p': 1.0, 'r': 0.25, 'f': 0.4}, 'Renewal Notice (Days)': {'p': 1.0, 'r': 0.6, 'f': 0.7499999999999999}, 'Party One': {'p': 0.5, 'r': 0.25, 'f': 0.3333333333333333}, 'Aggrement Value': {'p': 0.0, 'r': 0.0, 'f': 0.0}}
 ```
