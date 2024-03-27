@@ -19,12 +19,12 @@ def preprocess(filename, file_location):
   lines = re.sub(' +',' ', lines)
   # lines = lines.split('\n')
   line = []
-  # # for 500 characters
-  # for i in range(len(lines)//500):
-  #     line.append(lines[i*500:(i+1)*500])
-  #for \n line split
-  for line_ in lines:
-     line.append(line_)
+  # for 500 characters
+  for i in range(len(lines)//500):
+      line.append(lines[i*500:(i+1)*500])
+  # #for \n line split
+  # for line_ in lines:
+  #    line.append(line_)
   return line
 
 def convert_spacy_json(input_file_name, output_file_name, file_location, entities_val):

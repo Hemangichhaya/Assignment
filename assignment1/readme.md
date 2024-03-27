@@ -6,7 +6,7 @@ Then install requirements using
 ```
 pip install -r requirements.txt
 ```
-modify path of tessreact
+modify path of tessreact (line 8 of data_preprocess.py)
 ```
 pytesseract.pytesseract.tesseract_cmd = r'D:/testreact_folder/tesseract.exe'
 ```

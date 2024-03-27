@@ -9,7 +9,7 @@ if uploaded_file is not None:
     with open(uploaded_file.name, 'wb') as file:
         file.write(uploaded_file.getvalue())
     with st.spinner():
-        val_dictionary = extract_entity('./models/split_lines_main', uploaded_file.name, '.')
+        val_dictionary = extract_entity('./models/split_fixedlen_main', uploaded_file.name, '.')
         labels = ['Party One', 'Aggrement End Date', 'Renewal Notice (Days)', 'Party Two', 'Aggrement Start Date', 'Aggrement Value']
         for idx, label in enumerate(labels):
             if label in val_dictionary:
