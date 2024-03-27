@@ -6,6 +6,13 @@ Then install requirements using
 ```
 pip install -r requirements.txt
 ```
+Download spacy en_core_web_sm and en_core_web_lg
+
+```
+python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_lg
+```
+
 modify path of tessreact (line 8 of data_preprocess.py)
 ```
 pytesseract.pytesseract.tesseract_cmd = r'D:/testreact_folder/tesseract.exe'
@@ -17,12 +24,6 @@ python ./main.py
 To infer for new data using web UI
 ```
 streamlit run .\streamlit_app.py
-```
-Download spacy en_core_web_sm and en_core_web_lg
-
-```
-python -m spacy download en_core_web_sm
-python -m spacy download en_core_web_lg
 ```
 
 Preprocessing
