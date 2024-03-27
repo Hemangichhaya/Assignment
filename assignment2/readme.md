@@ -5,9 +5,13 @@ Install
   - seaborn
 
 Ploted usage_kwh vs Load_type boxplot to analyzed the outlier. Light_load having a highest overlap as compaer to other Load-type data.
+
 Calculate the power fector and KVA as new feature in feature engineering.
+
 Measure the performance of the model using Logostic Regression, Random Foreset Classifier, Decision Tree and XGBoost.
+
 XGBoost is having the best performance.
+
 After doing feature engineering performance input:
 
 |               | precision | Recall  | f1-score | support |
