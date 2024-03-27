@@ -12,8 +12,6 @@ Measure the performance of the model using Logostic Regression, Random Foreset C
 
 XGBoost is having the best performance.
 
-After doing feature engineering performance input:
-
 |               | precision | Recall  | f1-score | support |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 0             | 0.97  |  0.95  | 0.96  | 3574  |
