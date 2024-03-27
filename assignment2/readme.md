@@ -15,8 +15,7 @@ After doing feature engineering performance input:
 | 0             | 0.97  |  0.95  | 0.96  | 3574  |
 | 1             | 0.76  |  0.80  | 0.78  | 1499  |
 | 2             | 0.78  |  0.77  | 0.77  | 1936  |
-| accuracy      |                  0.87  | 7009  |
+| accuracy      |       |        |  0.87  | 7009 |
 | macro avg     | 0.83  |  0.84  | 0.84  | 7009  |  
-
 | weighted avg  | 0.87  |  0.87  | 0.87  | 7009  |
           
